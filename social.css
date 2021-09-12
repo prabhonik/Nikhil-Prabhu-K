@@ -1,0 +1,170 @@
+html{
+    scroll-behavior: smooth;
+}
+.navdiv{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: 	#2f2626;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+.logo{
+    font-size: 4rem;
+    font-family:cursive;
+}
+.logodes{
+    font-size: 2rem;
+    color: #ccc2ac;
+}
+
+body{
+    background-color: #ccc2ac;
+}
+.navul{
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    display: block;
+    float: right;
+    background: #4c3c3c;
+    width: 100%;
+    padding: 0;
+    margin: 2px;
+    border-radius: 0.5rem;
+    line-height: 3rem;
+    
+}
+.navli{
+    text-decoration: none;
+    border-left: 2px solid #ccc2ac;
+    display: inline-block;
+   
+}
+.nava{
+    color: #ccc2ac;
+    text-decoration: none;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    padding: 1rem;  
+     
+}
+.na{
+    display: inline;
+    margin-left: 2.5rem;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.set{
+    display: inline-block;
+    float: right;
+    margin-right: 4rem;
+}
+.navli:hover{
+    background-color: #7a6969;
+    border: white;
+    border-radius: 0.5rem;
+}
+section{
+    width: 100%;
+    height: 300vh;
+
+}
+.gotoupbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #2f2626;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: 	#c5aa6a;
+    font-size: 2rem;
+}
+#indexpic{
+    width: 75%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+
+.maincontent{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.wrapper{
+    margin-top: 10rem;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width:60px;
+    float: left;
+    margin: 0 5px;
+    background: #fff;
+    border-radius: 50px;
+ 
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+.wrapper .button:hover{
+    width: 200px;
+    
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    line-height: 60px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background: #EA4335;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: #0072b1;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #4078c0;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #00acee;
+}
+.wrapper .button:nth-child(5):hover .icon{
+    background:  #fb3958;
+}
+.wrapper .button:nth-child(6):hover .icon{
+    background:  #3b5998;
+}
+.wrapper .button:hover .icon i{
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    color: #4c3c3c;
+}
+
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+
+}
+

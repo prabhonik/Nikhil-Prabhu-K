@@ -1,0 +1,187 @@
+html{
+    scroll-behavior: smooth;
+}
+.navdiv{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: 	#2f2626;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+.logo{
+    font-size: 4rem;
+    font-family:cursive;
+}
+.logodes{
+    font-size: 2rem;
+    color: #ccc2ac;
+}
+
+body{
+    background-color: #ccc2ac;
+}
+.navul{
+    text-decoration: none;
+    list-style: none;
+    border: none;
+    display: block;
+    float: right;
+    background: #4c3c3c;
+    width: 100%;
+    padding: 0;
+    margin: 2px;
+    border-radius: 00.5rem;
+    line-height: 3rem;
+    
+}
+.navli{
+    text-decoration: none;
+    border-left: 2px solid #ccc2ac;
+    display: inline-block;
+   
+}
+.nava{
+    color: #ccc2ac;
+    text-decoration: none;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    padding: 1rem;  
+     
+}
+.na{
+    display: inline;
+    margin-left: 2.5rem;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.set{
+    display: inline-block;
+    float: right;
+    margin-right: 4rem;
+}
+.navli:hover{
+    background-color: #7a6969;
+    border: white;
+    border-radius: 0.5rem;
+}
+section{
+    width: 100%;
+    height: 300vh;
+
+}
+.gotoupbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #2f2626;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: 	#c5aa6a;
+    font-size: 2rem;
+}
+#indexpic{
+    width: 75%;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.personaldet{
+    margin-top: 2rem;
+    display:  block;
+    width: 90%;
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    border: 1px solid #2f2626;
+    border-radius: 0.75rem;
+    border-width: 0.3rem;
+}
+#nik{
+    width:30%;
+    margin-top: 2rem;
+    display: block;
+}
+
+.mydetails{
+    display:block;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 4%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color:#2f2626;
+    line-height: 2.75rem;
+}
+.education{
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    text-align: center;
+    display: block;
+    margin-top: 3rem;
+    border: 1px solid #2f2626;
+    border-radius: 0.75rem;
+    border-width: 0.3rem;
+    width: 90%;
+}
+.educationbar{
+    width: 90%;
+    border-radius: 0.5rem;
+    margin-left: 4.9%;
+    margin-right: 4.9%;
+}
+table{
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-collapse: collapse;
+}
+th{
+    font-size: 1.5rem;
+    color: #2f2626;
+    border:  1px solid #2f2626;
+}
+td,tr{
+    border:  1px solid #2f2626;
+    font-size: 1.5rem;
+}
+th,td,tr{
+    padding: 0.75rem;
+}
+
+
+.hobbies{
+    margin-left: 4.5%;
+    margin-right: 4.5%;
+    display: block;
+    margin-top: 3rem;
+    border: 1px solid #2f2626;
+    border-radius: 0.75rem;
+    border-width: 0.3rem;
+
+}
+.hobbyname{
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+}
+.hobbyinfo{
+    font-size: 1.5rem;
+    text-align: justify;
+    line-height: 2.75rem;
+    margin-left: 1.75rem;
+    margin-right: 1.75rem;
+    font-family:'Times New Roman', Times, serif
+}
+hr{
+    border-color: #2f2626;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+h1, h2{
+    color: #2f2626;
+}
