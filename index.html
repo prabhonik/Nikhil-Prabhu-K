@@ -1,116 +1,189 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Nikhil Prabhu K - Personal Website</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="fa-arrow-up" href="arrowup.svg">
-        <script src="https://kit.fontawesome.com/4a0da9e824.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <nav>
-            <div class="navdiv">
-                <center><label class="logo">Nikhil Prabhu K</label></center>
-                <center><label class="logodes">Welcome to my <span style="color: #c5aa6a;">Website</span></label></center>
-            </div>
-            <ul class="navul">
-                <li class="na"><a class="nava" href="index.html">Prabhonik</a></li>
-                <div class="set">
-                    <li class="navli"><a class="nava" href="#">Home</a></li>
-                    <li class="navli"><a class="nava" href="skillsets.html">Skillsets</a></li>
-                    <li class="navli"><a class="nava" href="projects.html">Projects</a></li>
-                    <li class="navli"><a class="nava" href="resume.html">Resume</a></li>
-                    <li class="navli"><a class="nava" href="social.html">Social Media</a></li>
-                </div>
-            </ul>
-        </nav>
-        
-        <div class="maincontent">
-            <a href="#" class="gotoupbtn"><i class="fas fa-arrow-up"></i></a>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-            <center><img src="indexpic.jpg" alt="pic" id="indexpic"></center>
-            <div class="personaldet">
-                <center><img src="nik.png" alt="pic" id="nik"></center>
-                <div class="mydetails">
-                    <p>Name: Nikhil Prabhu K<p>
-                    <p>Address: Karkala, Udupi, Karnataka<p>
-                    <p>Persuing <b>B.E.(Final Year) in Computer Science and Engineering</b> at Canara Engineering College</p>
-                    <p>Intern at IC Solutions</p>
-                    <p>Ready to work</p>
-                    <p>Seeking a position in a competitive environment that would challenge to push boundaries and expand knowledge in this field of Computer Science</p>
-                </div>
-            </div>
-            <div class="education">
-                <h1>Education</h1>
-                <img src="education.png" alt="bar-graph" class="educationbar">
-                <table class="edu">
-                    <tr>
-                        <th>Grades</th>
-                        <th>Institution Name</th>
-                        <th>University/Board</th>
-                        <th>Stream</th>
-                        <th>Year</th>
-                        <th>Marks</th>
-                    </tr>
-                    <tr>
-                        <td>Bachelor of Engineering</td>
-                        <td>Canara Engineering College</td>
-                        <td>VTU</td>
-                        <td>CSE</td>
-                        <td>2018 - 2022</td>
-                        <td>CGPA - 7.26</td>
-                    </tr>
-                    <tr>
-                        <td>12th</td>
-                        <td>Sri Bhuvanendra PU College</td>
-                        <td>Karnataka State Board</td>
-                        <td>PCMC</td>
-                        <td>2018</td>
-                        <td>81.33%</td>
-                    </tr>
-                    <tr>
-                        <td>10th</td>
-                        <td>Shreemad Bhuvanendra High School</td>
-                        <td>Karnataka Secondary Education Examination Board</td>
-                        <td>-</td>
-                        <td>2016</td>
-                        <td>91.2%</td>
-                    </tr>
-                </table>
-            </div>
-            <div class="hobbies">
-                <center><h1>Hobbies</h1></center>
-                <div class="hobbyblock">
-                    <h2 class="hobbyname">Swimming:</h2>
-                    <p class="hobbyinfo">
-                    I love trekking and swimming, I swim in the lakes, rivers and spend my time near water falls. I am not an expert in swimming, but I love being in water and in between forests and hills. Being between nature gives a different feel which I cannot put that in words. I oftenly felt that I have magnetic power within me which attracts me and takes me towards hills, falls and jungles. 
-                    </p>
-                </div>
-                <hr>
-                <div class="hobbyblock">
-                    <h2 class="hobbyname">Numismatics:</h2>
-                    <p class="hobbyinfo">
-                        Briefly explaining about What numismatics is?<br>
-                        The study of the physical embodiment of various payment media (i.e. currencies). The study of numismatics as it applies to coins is often in the research of the production and use of the coins to determine their rarity.<br>
-                        In simple I collect Coins and Notes of different countries and of different types. I also have many very old coins may be approx 250 years old.
-                    </p>
-                </div>
-                <hr>
-                <div class="hobbyblock">
-                    <h2 class="hobbyname">Philately:</h2>
-                    <p class="hobbyinfo">
-                        Briefly explaining about What Philately is?<br>
-                        Philately, the study of postage stamps, stamped envelopes, postmarks, postcards, and other materials relating to postal delivery. The term philately also denotes the collecting of these items.<br>
-                        I have stamps of differnet countries which are decades old. Some are centuries old too. Philatelists have this keen excitemnt of knowing about different cultures, traditions, geography, biography, history and art.
-                    </p>
-                </div>
-                <hr>
-                <div class="hobbyblock">
-                    <h2 class="hobbyname">Personal Finance</h2>
-                    <p class="hobbyinfo">
-                        What I mean by mentioning personal finance is, I am much intrested in finance especially equity market. Its completely not about spending or managing money. I do fundamental analysis of the listed companies. In brief fundemental analysis means the financials, balace sheets, various ratios related to financials, the products and its demand in future, their business model and many other things like such.<br> I also do technical analysis. There are differnet technical ways to analyze. I use Candelstick patterns with RSI and MACD. It helps us to find the support and resistance in the price of any stock. Its the ratios, patterns, symetries, cycles which helps in doing analysis and I realized how amazing these things are and How accurate they are.
-                </div>
-            </div>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+
+    <title>Nikhil Prabhu K - My personal website - About me</title>
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #2f2626;"">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Prabhonik</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="abilities.html">Abilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="projects.html">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="resume.html">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hicking.html">Hicking Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Social Media</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </body>
+    </nav>
+
+    <div class="left">
+        <img src="dp.jpg" alt="profilephoto" id="dp">
+        <h1 class="myname">Nikhil Prabhu K</h1>
+        <div class="op">
+            <ul class="leftop">
+              <li class="leftop-item">
+                <p class="ab"><i class="fas fa-user-graduate"></i> Persuing final year B.E.</p>
+              </li>
+              <li class="leftop-item">
+                <p class="ab"><i class="fas fa-desktop"></i> Computer Science and Engineering</p>
+              </li>
+              <li class="leftop-item">
+                <p class="ab"><i class="fas fa-university"></i> Canara Engineering College</p>
+              </li>
+              <li class="leftop-item">
+                <p class="ab"><i class="fas fa-map-marker-alt"></i> Karkala, Udupi, Karnataka</p>
+              </li>
+            </ul>
+        </div>
+    </div>
+   
+    <div class="right">
+      <div class="bg1"></div>
+      <div class="bg2">
+        <h1 class="nikh">NIKHIL PRABHU K</h1>
+        <h2 class="welcome">Welcome to my website</h2>
+      </div>
+      <hr class="horline">
+      <div class="intro">
+        <q class="introd">I am an alround web developer. I was intern at Bionic Engineers experienced with full stack development. I am intrested in software development with goood knowledge in the domain HTML, CSS, PHP, MySql, JS. I also have good hold on Data Structures. I love spending most of the time developing websites and web applications. Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.</q>
+      </div>
+      <div class="looking">
+        <p class="lookingp">Seeking a position in a competitive environment that would challenge to push boundaries and expand knowledge in this field of Computer Science.</p>
+      </div>
+      <hr class="horline">
+      <div class="education">
+        <div class="heading"><h2>Education</h2></div>
+        <table class="edu">
+          <tr>
+            <td class="tdl"><b>Canara Engineering College</b></td>
+            <td class="tdr"><b>B.E. - Computer Science and Engineering</b></td>
+          </tr>
+          <tr>
+            <td class="tdl">Aug 2018 - Persuing</td>
+            <td class="tdr">I am currently Persuing my final Engineering specialized in Computer Science and Engineering with an <b>overall CGPA of 7.37 (upto 6th sem)</b>. Presently studying in 7th sem. In the first year I learnt basics of all fields including cs. From 2nd sem I learned Data Structures, OOPS, Java, Python, DBMS, Web Development, Mobile application development etc. Now in final year I am going to learn advanced concepts like Machine Learning, Artificial Intelligence, Robotic Process Automation and Big Data.</td>
+          </tr>
+          <tr>
+            <td class="tdl"></td>
+            <td class="tdbr"><i class="fas fa-map-marker-alt"></i>  Bantwal, Mangalore</td>
+          </tr>
+          <tr>
+            <td class="tdl"><b>Sri Bhuvanendra PU College</b></td>
+            <td class="tdr"><b>12th - PCMC</b></td>
+          </tr>
+          <tr>
+            <td class="tdl">2016 - 2018</td>
+            <td class="tdr">I completed my pre university or 12th grade with <b>81.33%</b>. I had scored 488 out of 600. I had two languages, Physics, Chemistry, Mathematics and Computer Science. I got intrest towards computer science and coding during this time. I had learnt basics of HTML and coding language C++ during this time.</td>
+          </tr>
+          <tr>
+            <td class="tdl"></td>
+            <td class="tdbr"><i class="fas fa-map-marker-alt"></i>  Karkala, Udupi</td>
+          </tr>
+          <tr>
+            <td class="tdl"><b>Shreemad Bhuvanendra High School</</td>
+            <td class="tdr"><b>10th</b></td>
+          </tr>
+          <tr>
+            <td class="tdl">2016</td>
+            <td class="tdr">I made my general fundementals very strong and scored 570 out of 625 that is <b>91.2%</b>. The science that I studied here was very basic and most necessary in once life. The social science and mathematics in SSLC is very important in ones life. I was thought good values and life lessons in my school.</td>
+          </tr>
+          <tr>
+            <td class="tdl"></td>
+            <td class="tdbr"><i class="fas fa-map-marker-alt"></i>  Karkala, Udupi</td>
+          </tr>
+        </table>
+        <img src="education.png" alt="markschart" class="pic">
+      </div>
+      <hr>
+      <div class="exp">
+        <div class="heading"><h2>Work Experience</h2></div>
+        <table class="edu">
+          <tr>
+            <td class="tdl"><b>Internship</b></td>
+            <td class="tdr"><b>Bionic Engineers</b></td>
+          </tr>
+          <tr>
+            <td class="tdl">19th Aug 2021 - 27th Sep 2021</td>
+            <td class="tdr">It was my first experience working as an intern in <b>Full Stack Development.</b> I had an opportunity to develop a website for a company named Sri Maruthi Pharma. The website which will be used by the clients/customers of the company. As the part of the team I was assigned to work on backend and database. </td>
+          </tr>
+        </table>
+      </div>
+      <hr>
+      <div class="hob">
+        <div class="heading"><h2>Hobbies</h2></div>
+        <table class="edu">
+          <tr>
+            <td class="tdl"><b>Numismatics</b></td>
+            <td class="tdr"><b>(Coin and Currency Collection)</b></td>
+          </tr>
+          <tr>
+              <td class="tdl"></td>
+              <td class="tdr">The study of the physical embodiment of various payment media (i.e. currencies). The study of numismatics as it applies to coins is often in the research of the production and use of the coins to determine their rarity.<br>
+              In simple I collect Coins and Notes of different countries and of different types. I also have many very old coins may be approx 250 years old.<hr></td>
+          </tr>
+          
+          <tr>
+            <td class="tdl"><b>Philately</b></td>
+            <td class="tdr"><b>(Stamp Collection)</b></td>
+          </tr>
+          <tr>
+              <td class="tdl"></td>
+              <td class="tdr">Philately, the study of postage stamps, stamped envelopes, postmarks, postcards, and other materials relating to postal delivery. The term philately also denotes the collecting of these items.<br>
+              I have stamps of differnet countries which are decades old. Some are centuries old too. Philatelists have this keen excitemnt of knowing about different cultures, traditions, geography, biography, history and art.<hr></td>
+          </tr>
+
+          <tr>
+            <td class="tdl"><b>Trekking and Swimming</b></td>
+            <td class="tdr"><b>(Hiking)</b></td>
+          </tr>
+          <tr>
+              <td class="tdl"></td>
+              <td class="tdr">I love trekking and swimming, I swim in the lakes, rivers and spend my time near water falls. I am not an expert in swimming, but I love being in water and in between forests and hills. Being between nature gives a different feel which I cannot put that in words. I oftenly felt that I have magnetic power within me which attracts me and takes me towards hills, falls and jungles.<hr></td>
+          </tr>
+
+          <tr>
+            <td class="tdl"><b>Personal Finance</b></td>
+            <td class="tdr"><b>(Equity(Share Market) Investment, Gold, Debt(bonds), Global Queue)</b></td>
+          </tr>
+          <tr>
+              <td class="tdl"></td>
+              <td class="tdr">What I mean by mentioning personal finance is, I am much intrested in finance especially equity market. Its completely not about spending or managing money. I do fundamental analysis of the listed companies. In brief fundemental analysis means the financials, balace sheets, various ratios related to financials, the products and its demand in future, their business model and many other things like such.<br>
+              I also do technical analysis. There are differnet technical ways to analyze. I use Candelstick patterns with RSI and MACD. It helps us to find the support and resistance in the price of any stock. Its the ratios, patterns, symetries, cycles which helps in doing analysis and I realized how amazing these things are and How accurate they are.</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    
+  </body>
 </html>

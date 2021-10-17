@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(244, 252, 252);
+}
+h1{
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 2.75rem;
+    vertical-align: middle;
+    padding-top: 20px;
+    z-index: 1;
+    color: #2f2626;
+}
+.bbox0{
+    width: 100%;
+    background-image: linear-gradient(to right, rgb(255, 184, 92), rgba(66, 17, 17, 0.747));
+    height: 100px;
+}
+.bbox{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: radial-gradient(rgb(247, 213, 169), rgb(247, 213, 169));
+    height: 100px;
+    margin-top: -50px;
+}
+q{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: xx-large;
+    border: 1px solid #2f2626;
+    border-left: none;
+    border-right: none;
+    padding: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+hr{
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills{
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.maincont{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    padding: 0;
+    box-sizing: border-box;  display: grid;
+    margin-bottom: 100px;
+    margin-top: -100px;
+}
+
+
+.wrapper{
+    margin-top: 10rem;
+}
+
+.wrapper .button{
+    display: inline-block;
+    height: 60px;
+    width:60px;
+    margin: 0 5px;
+    background: #fff;
+    border-radius: 50px;
+ 
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+    overflow: hidden;
+}
+.wrapper .button:hover{
+    width: 200px;
+    
+}
+
+.wrapper .button .icon{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    line-height: 60px;
+    text-align: center;
+    transition: all 0.3s ease-out;
+    cursor: pointer;
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background: #EA4335;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: #0072b1;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #4078c0;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #00acee;
+}
+.wrapper .button:nth-child(5):hover .icon{
+    background:  #fb3958;
+}
+.wrapper .button:nth-child(6):hover .icon{
+    background:  #3b5998;
+}
+.wrapper .button:hover .icon i{
+    color: #fff;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    color: #4c3c3c;
+}
+
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+
+}
+

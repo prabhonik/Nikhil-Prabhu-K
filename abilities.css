@@ -37,51 +37,52 @@ q{
     margin-left: 250px;
     margin-right: 250px;
 }
-.hrl{
-    width: 90%;
+hr{
+    width: 60%;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
-    color:rgb(95, 94, 94);
-    border: 1px solid;
+}
+.skills{
+    margin-bottom: 20px;
+    padding-left: 15px;
 }
 .maincont{
-    width: 85%;
+    width: 65%;
     margin-left: auto;
     margin-right: auto;
 }
-.sidehead{
-    margin-bottom: 20px;
-    padding-left: 15px;
-    font-weight: 400;
-    font-family: 'IM Fell English SC', serif;
-}
-.subsidehead{
-    margin-bottom: 20px;
-    padding-left: 15px;
-    font-weight: lighter;
-    font-size: x-large;
-}
-.description{
-    margin-top: 30px;
-    font-size: larger;
-    line-height: 2.25rem;
-    letter-spacing: 0.84px;
+ul{
+    list-style: none;
     display: block;
-    font-family: 'Crimson Text', serif;
 }
-strong{
-    font-size: larger;
-    line-height: 2.25rem;
-    letter-spacing: 0.84px;
+.checked{
+    color: rgb(32, 152, 192);
 }
-ol{
-    margin-top: 30px;
-    font-size: larger;
-    line-height: 2.25rem;
-    letter-spacing: 0.84px;
-    display: block;
-    font-family: 'Crimson Text', serif;
+.unchecked{
+    color: rgb(190, 229, 255);
+}
+.star{
+    float: right;
+}
+.list:hover{
+    zoom: 110%;
+    border-radius: 0.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.partleft{
+    width: 50%;
+    float: left;
+    padding-right: 10px;
+}
+.partright{
+    width: 50%;
+    float: right;
+    padding-left: 10px;
+}
+.imgofcerti{
+    text-decoration: none;
+    color: #2f2626;
 }
