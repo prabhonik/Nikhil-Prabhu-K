@@ -127,3 +127,93 @@ hr{
 
 }
 
+
+@media screen and (max-width: 480px) {
+    .partleft{
+        width: 100%;
+     
+    }
+    .partright{
+        width: 100%;
+        
+    }
+    h1{
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        font-size: 1.25rem;
+        vertical-align: middle;
+        padding-top: 10px;
+        z-index: 1;
+        color: #2f2626;
+        width: 90%;
+    }
+    .bbox{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: radial-gradient(rgb(247, 213, 169), rgb(247, 213, 169));
+        height: 50px;
+        margin-top: -25px;
+    }
+    .bbox0{
+        width: 100%;
+        background-image: linear-gradient(to right, rgb(255, 184, 92), rgba(66, 17, 17, 0.747));
+        height: 50px;
+    }
+   
+    q{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.15rem;
+        border: 1px solid #2f2626;
+        border-left: none;
+        border-right: none;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .wrapper{
+        margin-top: 10rem;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .maincont{
+        display: grid;
+        height: 100%;
+        width: 100%;
+        place-items: center;
+        padding: 0;
+        box-sizing: border-box;  display: grid;
+       text-align: center;
+    }
+    .wrapper .button{
+        display: inline-block;
+        height: 60px;
+        width:60px;
+        margin: 0 5px;
+        background: #fff;
+        border-radius: 50px;
+     
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-out;
+        overflow: hidden;
+    }
+    .wrapper .button:hover{
+        width: 200px;
+        
+    }
+    
+    .wrapper .button .icon{
+        display: inline-block;
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+        line-height: 60px;
+        text-align: center;
+        transition: all 0.3s ease-out;
+        cursor: pointer;
+    }
+}

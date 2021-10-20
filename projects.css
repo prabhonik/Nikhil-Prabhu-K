@@ -85,3 +85,113 @@ ol{
     display: block;
     font-family: 'Crimson Text', serif;
 }
+img{
+    width: 80%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 480px) {
+    .partleft{
+        width: 100%;
+     
+    }
+    .partright{
+        width: 100%;
+        
+    }
+    h1{
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        font-size: 1.25rem;
+        vertical-align: middle;
+        padding-top: 10px;
+        z-index: 1;
+        color: #2f2626;
+        width: 90%;
+    }
+    .bbox{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: radial-gradient(rgb(247, 213, 169), rgb(247, 213, 169));
+        height: 50px;
+        margin-top: -25px;
+    }
+    .bbox0{
+        width: 100%;
+        background-image: linear-gradient(to right, rgb(255, 184, 92), rgba(66, 17, 17, 0.747));
+        height: 50px;
+    }
+   
+    q{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.15rem;
+        border: 1px solid #2f2626;
+        border-left: none;
+        border-right: none;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .maincont{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sidehead{
+        margin-bottom: 10px;
+        padding-left: 7px;
+        font-weight: 400;
+        font-family: 'IM Fell English SC', serif;
+    }
+    .subsidehead{
+        margin-bottom: 10px;
+        padding-left: 7px;
+        font-weight: lighter;
+        font-size: large;
+    }
+    img{
+        width: 97%;
+        text-align: center;
+    }
+    .description{
+        margin-top: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: small;
+        line-height: 1.5rem;
+        letter-spacing: 0.84px;
+        display: block;
+        font-family: 'Crimson Text', serif;
+    }
+    strong{
+        font-size: medium;
+        line-height: 1.25rem;
+        letter-spacing: 0.42px;
+        padding-left: 10px;
+    }
+    .hrl{
+        width: 90%;
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        color:rgb(95, 94, 94);
+        border: 1px solid;
+    }
+    ol{
+        margin-top: 15px;
+        font-size: small;
+        line-height: 1.25rem;
+        letter-spacing: 0.42px;
+        display: block;
+        font-family: 'Crimson Text', serif;
+        margin-right: 5px;
+    }
+}

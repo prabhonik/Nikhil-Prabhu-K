@@ -110,3 +110,133 @@ hr{
     margin-top: 25px;
     margin-bottom: 30px;
 }
+.sinpotrimg{
+    width: 40%;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sinlandimg{
+    width: 90%;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .partleft{
+        width: 100%;
+     
+    }
+    .partright{
+        width: 100%;
+        
+    }
+    h1{
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: lighter;
+        font-size: 1.25rem;
+        vertical-align: middle;
+        padding-top: 10px;
+        z-index: 1;
+        color: #2f2626;
+        width: 90%;
+    }
+    .bbox{
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: radial-gradient(rgb(247, 213, 169), rgb(247, 213, 169));
+        height: 50px;
+        margin-top: -25px;
+    }
+    .bbox0{
+        width: 100%;
+        background-image: linear-gradient(to right, rgb(255, 184, 92), rgba(66, 17, 17, 0.747));
+        height: 50px;
+    }
+   
+    q{
+        margin-top: 20px;
+        text-align: center;
+        display: block;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1.15rem;
+        border: 1px solid #2f2626;
+        border-left: none;
+        border-right: none;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    .landimg{
+        width: 100%;
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+       
+    }
+    .potrimg{
+        width: 100%;
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+       
+    }
+    .sinpotrimg{
+        width: 90%;
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .subcont{
+        width: 100%;
+        background-color: beige;
+        margin-top: 25px;
+    }
+    .placename{
+        font-size: medium;
+        margin: 0;
+    }
+    .caption{
+        text-align: center;
+        margin-top: 5px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: small;
+        width: 100%;
+        line-height: 1.25;
+    }
+    element.style {
+        width: 95%;
+    }
+    .previous{
+        text-decoration: none;
+        display: inline-block;
+        padding: 6px 12px;
+        background-color: #f1f1f1;
+        color: black;
+        margin-top: 25px;
+    }
+    .previous:hover, .next:hover{
+        background-color: #ddd;
+        color: black;
+    }
+    .next{
+        background-color: #04AA6D;
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        padding: 6px 12px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+}
